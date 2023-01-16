@@ -1,11 +1,6 @@
 # IMS_UNITY
 
 <details>
-  <summary> 싱글톤 </summary>
-  
-</details>
-
-<details>
   <summary> 코루틴 </summary>
   
   ```
@@ -43,5 +38,25 @@
   StopCoroutine("코루틴 이름");  // 해당 코루틴만 중지
   StopAllCoroutines();    // 모든 코루틴 중지
   ```
+  
+</details>
+
+
+<details>
+  <summary> 싱글톤 </summary>
+  
+  ```
+  < 싱글톤 >
+    
+  게임 시스템의 전역 변수 역할을 하는 스크립트
+  여러 오브젝트가 접근을 해야 하는 스크립트
+  새로운 씬 로드 시 데이터 유지
+  단 한개의 객체만 존재
+  
+  메모리 절약, 데이터 관리이 유용하다는 장점
+  
+  GameManager.instance.변수 혹은 함수명 으로 사용
+  ```
+  
   
 </details>
